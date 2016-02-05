@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Aloha Apparel Co.</title>
+
+   <meta name="description" content="project 1a">
+   <meta name="author" content="Cameron Fuller">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="js/bxslider/jquery.bxslider.css">
+   <link rel="stylesheet" href="css/rwd-style.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+   <!-- Header -->
+   <header class="header container">
+      <div class="logo-cont">
+         <img  src="images/aloha-logo.svg" alt="Aloha Company logo"
+         title="Aloha Clothing Co." class="logo"/>
+      </div>
+      <nav class="nav-menu">
+         <ul>
+            <li><a href="#about" class="smoothScroll">About</a></li>
+            <li><a href="#shop" class="smoothScroll">Shop</a></li>
+            <li><a href="#featured" class="smoothScroll">Featured</a></li>
+            <li><a href="#updates" class="smoothScroll">Updates</a></li>
+         </ul>
+      </nav>
+      <div class="cart">
+         <img  src="images/cart-icon.svg" alt="shopping cart icon"
+         title="Shopping Cart" class="cart"/>
+      </div>
+   </header>
+
+   <!-- Banner -->
+   <section class="banner">
+      <div class="banner-text container">
+         <p class="collection">New Collection</p>
+         <p class="season">Spring/Summer 2016</p>
+      </div>
+   </section>
+
+   <!-- About -->
+   <section id="about" class="about">
+      <div class="about-text container">
+         <h2>Hand-Crafted <span class="heavy">Styles</span></h2>
+         <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing.
+            Browse our current selection of products or sign-up for updates below.</p>
+         </div>
+      </section>
+
+      <!-- categories -->
+      <section id="shop" class="categories">
+         <div class="large-catbox mens">
+            <a href="#"><span class="category-name">men's</span></a>
+         </div>
+         <div class="sqaure-catbox trends">
+            <a href="#"><span class="category-name">trends</span></a>
+         </div>
+         <div class="sqaure-catbox glasses">
+            <a href="#"><span class="category-name">glasses</span></a>
+         </div>
+         <div class="sqaure-catbox sale">
+            <a href="#"><span class="category-name">sale</span></a>
+         </div>
+         <div class="sqaure-catbox bags">
+            <a href="#"><span class="category-name">bags</span></a>
+         </div>
+         <div class="large-catbox womens">
+            <a href="#"><span class="category-name">women's</span></a>
+         </div>
+      </section>
+      <!-- Products -->
+      <section id="featured" class="featured">
+         <div>
+            <h2>Most-Loved <span class="heavy">Products</span></h2>
+            <ul class="wrapper bxslider">
+               <li class="product-list-item">
+                  <img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress" />
+                  <p class="product">Dresses</p>
+                  <h3>Stretch Knit Dress</h3>
+                  <p class="price">$169.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" />
+                  <p class="product">Shirts</p>
+                  <h3>Cotton Blue Shirt</h3>
+                  <p class="price">$89.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" />
+                  <p class="product">Dresses</p>
+                  <h3>Checked Stretch Dress</h3>
+                  <p class="price">$129.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" />
+                  <p class="product">Bags</p>
+                  <h3>Blue Hipster Backpack</h3>
+                  <p class="price">$69.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/blue-silk-dress.jpg" alt="Blue Silk Dress" />
+                  <p class="product">Dresses</p>
+                  <h3>Blue Silk Dress</h3>
+                  <p class="price">$119.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/demin-overall-shorts.jpg" alt="Denim Overall Shorts" />
+                  <p class="product">Denim</p>
+                  <h3>Denim Overall Shorts</h3>
+                  <p class="price">$89.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" />
+                  <p class="product">Dresses</p>
+                  <h3>Pink Dotted Dress</h3>
+                  <p class="price">$99.00</p>
+               </li>
+               <li class="product-list-item">
+                  <img src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt" />
+                  <p class="product">Shirts</p>
+                  <h3>Cotton Yellow Shirt</h3>
+                  <p class="price">$39.00</p>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <!-- Sign up Form -->
+      <section id="updates" class="newsletter">
+         <div class="news-text container">
+            <h2>Sign-up for <span class="heavy">Updates</span></h2>
+            <p>Stay updated on our latest product releases, be first to find out about
+               upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+
+            <!-- This is the email signup form. -->
+            <form class="sign-up-form">
+               <label>Email Sign Up</label>
+               <input type="email" name="new-email" id="userEmail" placeholder="Your Email">
+               <input type="submit" name="subscribe" value="Subscribe">
+            </form>
+               <!--This is the email signup form. -->
+         </div>
+      </section>
+
+         <!-- Footer -->
+         <footer>
+            <div class="foot container">
+               <div class="info">
+                  <div class="copyright">
+                     <p>&copy; 2016 Aloha Apparel Co.</p>
+                     <p>Powered by HTML and CSS.</p>
+                  </div>
+                  <div class="contact">
+                     <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+                  </div>
+                  <div class="address">
+                     <p>1490 W Broadway</p>
+                     <p>Vancouver, BC, Canada</p>
+                  </div>
+               </div>
+
+               <div class="social">
+                  <ul>
+                     <li><a href="#"><i class="fa fa-facebook"></i> <span>Facebook</span></a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
+                     <li><a href="#"><i class="fa fa-instagram"></i> <span>Instagram</span></a></li>
+                     <li><a href="#"><i class="fa fa-pinterest"></i> <span>Pinterest<span></a></li>
+                     <li><a href="#"><i class="fa fa-google-plus"></i> <span>Google+<span></a></li>
+                  </ul>
+               </div>
+            </div>
+         </footer>
+   <script src="js/jquery-2.2.0.min.js"></script>
+   <script src="js/bxslider/jquery.bxslider.min.js"></script>
+   <script src="js/smoothscroll.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+</html>
