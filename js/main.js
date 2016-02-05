@@ -20,7 +20,7 @@ $(function() {
       if(userEmail.val().length !== 0 ) {
          alert('Thanks for subscribing!');
       } else {
-         alert('Please enter a valid email address.')
+         alert('Please enter a valid email address.');
       }
    });
 
